@@ -9,7 +9,6 @@ function Hero() {
     >
       <div className="flex flex-grow items-center mt-9 text-left">
         <div className=" max-w-3xl mx-auto">
-          {/* Headings */}
           <h1 className="text-4xl sm:text-6xl font-bold mb-4 leading-tight text-white">
             Empowering Communities
           </h1>

@@ -4,7 +4,6 @@ import Header from "../components/Header";
 function AboutPage() {
   return (
     <>
-      {/* <p>ppppp</p> */}
       <Header />
       
       <AboutUs />

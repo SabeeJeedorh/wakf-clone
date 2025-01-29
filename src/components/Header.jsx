@@ -9,7 +9,7 @@ function Header() {
   };
 
   return (
-    <header className="sticky top-0 bg-cover bg-center text-fuchsia-50 p-4 shadow-lg bg-purple-400 backdrop-blur-md z-[999]">
+    <header className="fixed top-0 left-0 w-full bg-cover bg-center text-fuchsia-50 p-4 shadow-lg bg-purple-400 backdrop-blur-md z-[999]">
       <div className="max-w-7xl mx-auto h-full flex flex-col ">
         <div className="flex items-center justify-between ml-7">
           <div className="flex items-center space-x-4">
