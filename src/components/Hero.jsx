@@ -4,11 +4,11 @@ import flowerImage from "../assets/flower.jpg";
 function Hero() {
   return (
     <div
-      className="h-screen p-6 md:p-10 bg-cover bg-center"
+      className="h-screen p-4 sm:p-10 bg-cover bg-center"
       style={{ backgroundImage: `url(${flowerImage})` }}
     >
       <div className="flex flex-grow items-center mt-9 text-left pt-20">
-        <div className=" max-w-3xl mx-auto">
+        <div className="max-w-3xl mx-auto">
           <h1 className="text-4xl sm:text-6xl font-bold mb-4 leading-tight text-white">
             Empowering Communities
           </h1>
@@ -29,7 +29,6 @@ function Hero() {
             </button>
           </div>
 
-         
           <div className="bg-white mt-6 flex flex-wrap justify-center space-y-6 sm:space-y-0 sm:space-x-10 py-7 px-6 sm:px-11 rounded-lg">
             <div className="text-center">
               <h2 className="text-3xl sm:text-4xl font-bold text-purple-900">
@@ -53,12 +52,14 @@ function Hero() {
         </div>
       </div>
       <marquee className="text-white text-sm sm:text-lg mt-10">
-<p>   <i class="fa-solid fa-volume-high"></i>     Wunti Alkhair Foundation remains committed to uplifting the community
-        with transparency and integrity. Wunti Alkhair Foundation remains
-        committed to uplifting the community with transparency and integrity.</p>
+        <p>
+          <i className="fa-solid fa-volume-high"></i> Wunti Alkhair Foundation
+          remains committed to uplifting the community with transparency and
+          integrity. Wunti Alkhair Foundation remains committed to uplifting the
+          community with transparency and integrity.
+        </p>
       </marquee>
     </div>
-  
   );
 }
 
