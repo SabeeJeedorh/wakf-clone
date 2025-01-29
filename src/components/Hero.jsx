@@ -7,7 +7,7 @@ function Hero() {
       className="h-screen p-6 md:p-10 bg-cover bg-center"
       style={{ backgroundImage: `url(${flowerImage})` }}
     >
-      <div className="flex flex-grow items-center mt-9 text-left">
+      <div className="flex flex-grow items-center mt-9 text-left pt-24">
         <div className=" max-w-3xl mx-auto">
           <h1 className="text-4xl sm:text-6xl font-bold mb-4 leading-tight text-white">
             Empowering Communities
