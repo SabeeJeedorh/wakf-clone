@@ -29,29 +29,29 @@ function Hero() {
             </button>
           </div>
 
-          <div className="bg-white mt-6 flex flex-wrap justify-center space-y-6 sm:space-y-0 sm:space-x-10 py-7 px-6 sm:px-11 rounded-lg">
+          <div className="bg-white mt-6 flex flex-wrap justify-center space-y-6 sm:space-y-0 sm:space-x-10 py-5 sm:py-7 px-2 sm:px-2 rounded-lg">
             <div className="text-center">
-              <h2 className="text-3xl sm:text-4xl font-bold text-purple-900">
+              <h2 className="text-2xl sm:text-3xl font-bold text-purple-900">
                 1000+
               </h2>
-              <p className="text-purple-900">Scholarship</p>
+              <p className="text-sm sm:text-base text-purple-900">Scholarship</p>
             </div>
             <div className="text-center">
-              <h2 className="text-3xl sm:text-4xl font-bold text-purple-900">
+              <h2 className="text-2xl sm:text-3xl font-bold text-purple-900">
                 500+
               </h2>
-              <p className="text-purple-900">Healthcare Outreach</p>
+              <p className="text-sm sm:text-base text-purple-900">Healthcare Outreach</p>
             </div>
             <div className="text-center">
-              <h2 className="text-3xl sm:text-4xl font-bold text-purple-900">
+              <h2 className="text-2xl sm:text-3xl font-bold text-purple-900">
                 10,000+
               </h2>
-              <p className="text-purple-900">People Empowered</p>
+              <p className="text-sm sm:text-base text-purple-900">People Empowered</p>
             </div>
           </div>
         </div>
       </div>
-      <marquee className="text-white text-sm sm:text-lg mt-10">
+      <marquee className="text-white text-sm sm:text-lg mt-1">
         <p>
           <i className="fa-solid fa-volume-high"></i> Wunti Alkhair Foundation
           remains committed to uplifting the community with transparency and
